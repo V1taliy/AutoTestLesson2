@@ -12,5 +12,5 @@ User asd = new User();
         String username = asd.User();
 
         Assert.assertNotNull(username);
-        Assert.assertEquals(username, "TestUsername");   }
+        Assert.assertEquals(username, "TestUsername") ;   }
         }
