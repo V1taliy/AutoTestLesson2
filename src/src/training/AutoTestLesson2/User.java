@@ -1,6 +1,6 @@
-/**
- * Created by VitaliyS on 10/05/2016.
- */
+package AutoTestLesson2;
+
+
 public class User {
     private String username;
     private int password;
