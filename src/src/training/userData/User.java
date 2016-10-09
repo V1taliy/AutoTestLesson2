@@ -1,9 +1,15 @@
-package AutoTestLesson2;
+package userData;
 
 
-public class User {
+import userProfile.Profile;
+
+public class User extends Profile {
     private String username;
     private int password;
+
+
+    private User(Profile){
+        Profile profile = new Profile();    }
 
     public User() {
         username = "TestUsername";  // == this.username = ...
@@ -47,7 +53,7 @@ public class User {
     public static void main(String[] args) {
         System.out.println("Hello World!");
         User user1 = new User("User1", 123);
-        User user2 = new User("User2", 321);
+        User user2 = new User("User2", 111);
 
         System.out.println(user2.toString());
 
