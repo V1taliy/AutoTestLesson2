@@ -3,7 +3,7 @@ package userProfile;
 
 import userData.User;
 
-public class UserMain {
+public class  UserMain {
 
     public static void main(String[] args) {
 

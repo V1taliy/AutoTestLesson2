@@ -17,6 +17,9 @@ public class User extends Profile {
         setHadPreviousJob( true );
         setPositionInsideCompany( "HR" );
     }
+    public User(double averegeSalary){
+        averegeSalary = averegeSalary;
+    }
 
     public User(String username) {
         this.username = username;
@@ -67,7 +70,7 @@ public class User extends Profile {
         return "User{" +
                 "username = '" + username + '\'' +
                 ", password = " + password + ", number of friends = " + getNumberOfFriends()  + ", genre = " +getGenre()+ ", average salary = " + getAveregeSalaryLastYear()
-                 + ", position = " + getPositionInsideCompany()  + ", had previous job = " + isHadPreviousJob()  + ", agree to travel = " + getAgreeToTravelAbroad()  + ", best meal = " + getBestMeal() +
+                 + ", position = " + getPositionInsideCompany()  + ", had previous job = " + isHadPreviousJob(true)  + ", agree to travel = " + getAgreeToTravelAbroad()  + ", best meal = " + getBestMeal() +
                 '}';
     }
 

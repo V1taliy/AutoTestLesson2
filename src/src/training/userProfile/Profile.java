@@ -42,7 +42,7 @@ public class Profile {
         this.positionInsideCompany = positionInsideCompany;
     }
 
-    public boolean isHadPreviousJob() {
+    public boolean isHadPreviousJob(boolean b) {
         return hadPreviousJob;
     }
 
