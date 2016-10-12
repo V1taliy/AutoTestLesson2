@@ -13,7 +13,17 @@ public class  UserMain {
         System.out.println(user2.toString());
         User user3 = new User("Tony.A", 2016, 10, 'F' , 300.1 , "Web designer", false , "FALSE" , "Pizza");
         System.out.println(user3.toString());
+        System.out.println(user1.toString());
+        user1.setNumberOfFriends(user3.getNumberOfFriends());
+        System.out.println(user1.toString());
+
+user2.setAveregeSalaryLastYear( user1.getAveregeSalaryLastYear() );
+        System.out.println(user2.toString());
 
     }
+
+
+
+
 
 }

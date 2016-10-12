@@ -75,6 +75,7 @@ public class User extends Profile {
     }
 
 
+
     public static void main(String[] args) {
         System.out.println( "Hello World!" );
         User user1 = new User( "User1", 123 );
